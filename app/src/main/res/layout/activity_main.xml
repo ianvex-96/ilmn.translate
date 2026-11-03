@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terjemahan Layar &amp; Teks Terpilih"
+        android:textSize="16sp"
+        android:layout_marginBottom="48dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_overlay"
+        android:layout_marginBottom="16dp"
+        app:icon="@android:drawable/ic_menu_view" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/overlay_permission"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara pakai:\n1. Izinkan tampilan di atas aplikasi lain\n2. Mulai layanan overlay\n3. Untuk teks terpilih, sorot teks lalu pilih 'Terjemahkan' di menu konteks"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:padding="16dp"
+        android:background="#F5F5F5" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ilmn.translate</string>
+    <string name="start_overlay">Mulai Terjemahan Layar</string>
+    <string name="stop_overlay">Hentikan Terjemahan Layar</string>
+    <string name="overlay_permission">Izinkan tampilan di atas aplikasi lain</string>
+    <string name="notification_channel_name">Layanan Terjemahan Layar</string>
+    <string name="notification_channel_desc">Menampilkan terjemahan overlay</string>
+    <string name="notification_title">ilmn.translate aktif</string>
+    <string name="notification_text">Ketuk untuk mengatur</string>
+    <string name="translate">Terjemahkan</string>
+    <string name="from">Dari</string>
+    <string name="to">Ke</string>
+    <string name="auto_detect">Deteksi Otomatis</string>
+    <string name="copy_result">Salin Hasil</string>
+    <string name="close">Tutup</string>
+</resources>
